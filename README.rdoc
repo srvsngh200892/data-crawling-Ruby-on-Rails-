@@ -2,6 +2,11 @@
 
 Things you need to know for this application :
 
+* ruby version 2.2.5
+  rvm use ruby-2.2.5
+
+* rails version 4.2.4
+
 * run rake task to populate json file by uisg
   rake scrap:universites_list
   File for code : lib/tasks/universites_list.rake
