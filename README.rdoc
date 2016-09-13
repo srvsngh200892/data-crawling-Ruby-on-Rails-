@@ -18,6 +18,8 @@ Things you need to know for this application :
 * For Flattern Array
   run Utilities::MakeFlat.make_flat(array)
   File for code : lib/utilities.rb
+  
+  This is under untility file beacuse it can be used across as utility function
 
 
 
