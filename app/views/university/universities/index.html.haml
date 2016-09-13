@@ -1,0 +1,22 @@
+.row
+  .col-sm-6.text-right.pull-right
+    = paginate @res
+.table-responsive
+  %table.table.table-bordered.table-striped.margin10-both.table-hover.showRow
+    %thead
+      %th Name
+      %th Rank
+      %th Fees
+      %th Acceptance Rate
+
+    %tbody.pointerCursor
+      - @res.each do |order|
+        %tr
+          %td= order['name']
+          %td= order['rank']
+          %td= order['tuition_fees']
+          %td= order['acceptance_rate']
+.row
+  .col-sm-6.text-right.pull-right
+    = paginate @res
+
