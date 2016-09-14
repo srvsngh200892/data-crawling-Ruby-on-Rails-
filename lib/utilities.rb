@@ -5,7 +5,7 @@ module Utilities
         self
       else
         variable = pop
-        if data_structure.kind_of? Array
+        if variable.kind_of? Array
           makeflat + variable.makeflat
         else
           makeflat << variable
