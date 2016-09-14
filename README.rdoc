@@ -11,6 +11,9 @@ Things you need to know for this application :
   rake scrap:universites_list
   File for code : lib/tasks/universites_list.rake
 
+* controller to show all university details is in under universities_controller.rb
+  and assocaited view is under universities/index.html.haml
+  
 * To check anagram run following command
   AreAnagrams.are_anagram?('tac', 'cat')
   File for code : lib/are_anagrams.rb
