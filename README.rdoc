@@ -1,27 +1,29 @@
-== README
+== INSTRUCTION
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Things you need to know for this application :
 
-Things you may want to cover:
+* ruby version 2.2.5
+  rvm use ruby-2.2.5
 
-* Ruby version
+* rails version 4.2.4
 
-* System dependencies
+* run rake task to populate json file by uisg
+  rake scrap:universites_list
+  File for code : lib/tasks/universites_list.rake
 
-* Configuration
+* controller to show all university details is in under universities_controller.rb
+  and assocaited view is under universities/index.html.haml
+  
+* To check anagram run following command
+  AreAnagrams.are_anagram?('tac', 'cat')
+  File for code : lib/are_anagrams.rb
 
-* Database creation
+* For Flattern Array
+  run Utilities::MakeFlat.make_flat(array)
+  File for code : lib/utilities.rb
+  
+  This is under untility file beacuse it can be used across as utility function
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
